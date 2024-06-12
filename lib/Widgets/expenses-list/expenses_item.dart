@@ -7,8 +7,8 @@ const  ExpenseItem(this.expense,{super.key});
   Widget build( context){
     return Padding(
       padding: const EdgeInsets.symmetric(
-        horizontal: 15,
-        vertical: 16,
+        horizontal: 10,
+        vertical: 5,
       ),
       child: Card(
         
@@ -24,7 +24,7 @@ const  ExpenseItem(this.expense,{super.key});
             Row(
               children: [
                 Icon(categoryIcons[expense.category]),
-                const SizedBox(width:12),
+                const SizedBox(width:10),
                 Text(expense.formattedDate),
               ],
             ),
