@@ -3,7 +3,7 @@ import 'package:myapp/Widgets/expenses.dart';
 var kColorScheme = ColorScheme.fromSeed(seedColor:Color.fromARGB(255, 77, 183, 240),);
 var kDarkColorScheme=ColorScheme.fromSeed(
   brightness: Brightness.dark,
-  seedColor: Color.fromARGB(255, 5, 99, 125));
+  seedColor:const Color.fromARGB(255, 5, 99, 125));
 void main(){
 runApp(
   MaterialApp(
